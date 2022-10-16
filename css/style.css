@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
+body {
+    font-family: 'Ubuntu', sans-serif
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20px;
+}
+.calculator{
+    margin: auto;
+}
+
+.container {
+    border: 2px solid black;
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px gray;
+
+}
+
+.text-center {
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    color: rgb(207, 202, 202);
+}
+
+.cal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    margin: 7px 0px;
+}
+
+#clr {
+    background-color: rgb(160, 235, 47);
+}
+
+#del {
+    background-color: rgb(230, 78, 103);
+    padding: 15px 12px;
+}
+
+#sign {
+    background-color: rgb(160, 159, 159);
+}
+
+#equal {
+    background-color: orangered;
+}
+
+.button {
+    padding: 15px 15px;
+    width: 60px;
+    font-size: 21px;
+    margin: 0 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 3px 3px 10px black;
+    background-color: rgb(184, 240, 193);
+}
+
+.val-input {
+    padding: 7px 7px;
+    width: 255px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background-color: rgba(245, 245, 220, 0.945);
+    border-radius: 10px;
+    font-size: 34px;
+    box-shadow: 3px 3px 10px black,
+        inset -6px -6px 10px #fff;
+}
+
+/* color generator css */
+
+.random{
+     margin: auto;
+}
+.clr-gen {
+    width: 600px;
+    height: 400px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cont h2 {
+    margin: 5px;
+}
+
+#btn {
+    padding: 5px 20px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 7px;
+    background-color: black;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1000px){
+             
+    .main {
+       flex-direction: column;
+    }
+};
+    
+
